@@ -6,11 +6,11 @@
  *   'Trispace', Font for the body text 
  *   'Anybody', Font for the title text
  *   #FDF8F0; Background color of the site (light beige)
- *   #000000; Foreground (text) color of the site (black)
+ *   #000f46; Foreground (text) color of the site; changed Traditional Heritage Blue for Sian
  *   #192570; "Template" in the logo, current page in navigation, special titles in the Program (navy/purple)
- *   #5f22d9; Heading color, titles in the Program (purple) 
- *   #FF595A; for links hovered over (coral)
- *   #D668E3; main title (medium purple) and also text in photos (bottom-right)
+ *   #FF2D3C; MISCH Warm Red / Black Sheoak (Light) - from Sian
+ *   #0066B9; for links hovered over; changed to QUT Web primary blue for Sian
+ *   #009FE3; main title (medium purple) and also text in photos (bottom-right); changed to Cyan for Sian
  * for fonts see here: https://github.com/Etcetera-Type-Co
  * colour schemes https://www.hostinger.com/tutorials/website-color-schemes#Top_30_Website_Color_Schemes
  */
@@ -31,7 +31,7 @@ body{
     background-color: #FDF8F0;
     background-size: cover;
     background-attachment: fixed;
-    color: #000000; 
+    color: #000f46; 
     text-align: left;
     font-family:'Trispace',sans-serif;
     font-size: 1em;
@@ -42,16 +42,16 @@ body{
 
 a{color: #192570; text-decoration:none;}
 a.current{color: #192570; font-family:'Anybody',serif;}
-a.current:hover{color: #FF595A;} /* need to change this and above */
-a:hover{color: #FF595A;}
+a.current:hover{color: #0066B9;} /* need to change this and above */
+a:hover{color: #0066B9;}
 a:active{color: #192570;}
-h1,h2,h3,h4{clear:left; color: #5f22d9; margin:1.5em 0em 1em 0em; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+h1,h2,h3,h4{clear:left; color: #FF2D3C; margin:1.5em 0em 1em 0em; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:0px auto 12px auto; padding:0px; width:900px; text-align:left;}
-li a, p a {text-decoration:underline; text-decoration-color:#5f22d9;}
+li a, p a {text-decoration:underline; text-decoration-color:#FF2D3C;}
 ul{margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
@@ -82,13 +82,13 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Anybody',serif;}
-.top-left {font-size:5.33em; color: #000000; background: #FDF8F0; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 32px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #D668E3; line-height: 1.5em; width: auto; height: 100px; padding: 0px 22px 22px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.top-left {font-size:5.33em; color: #000f46; background: #FDF8F0; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 32px 0 0 0; top: 0px;}
+.bottom-right {font-size:2.33em; color: #009FE3; line-height: 1.5em; width: auto; height: 100px; padding: 0px 22px 22px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000f46;}
 
 /* Conference Title Logo */
-.title1{color: #D668E3; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title1{color: #009FE3; text-shadow: 1px 1px 3px #c0c0c0;} 
 .title2{color: #192570; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #000000; font-size:0.67em; font-weight: lighter;}
+.year{color: #000f46; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc); AGB added font-weight; width is key for word spacing */
 table.navigation{width:1020px;}
@@ -106,12 +106,12 @@ td.sponsor img{width: 100%}
 /* The Table on the Program Page */
 td.room{padding: 3px 12px 3px 3px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #192570; height:32px;}
 td.date{white-space:nowrap; width:240px; text-align:right; vertical-align:top; padding:3px 16px 0px 0px;}
-td.title{padding: 3px 12px 3px 3px; width: 90%; text-align:left; vertical-align:top; font-size:1.5em; color: #5f22d9; height:32px; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0; }
+td.title{padding: 3px 12px 3px 3px; width: 90%; text-align:left; vertical-align:top; font-size:1.5em; color: #FF2D3C; height:32px; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0; }
 td.title-special{padding: 3px 9px 3px 3px; width: 90%; vertical-align:top; font-size:1.67em; color: #192570; height:32px; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 td.speaker{padding: 3px 9px 3px 3px; font-style: italic; font-size:1em; max-height:999999px}
 td.abstract{padding: 3px 9px 12px 3px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
-table.plenary{padding-top: 6px; background: #000000;}
+table.plenary{padding-top: 6px; background: #000f46;}
 
 /* Registration and Directions iframes and Images */
 iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
