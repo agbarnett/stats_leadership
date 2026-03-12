@@ -9,7 +9,7 @@
  *   #000f46; Foreground (text) color of the site; changed Traditional Heritage Blue for Sian
  *   #192570; "Template" in the logo, current page in navigation, special titles in the Program (navy/purple)
  *   #009FE3; MISCH Warm Red / Black Sheoak (Light) - from Sian
- *   #0066B9; for links hovered over; changed to QUT Web primary blue for Sian
+ *   #FF2D3C; for links hovered over; changed to QUT Web primary blue for Sian
  *   #FF2D3C; main title (medium purple) and also text in photos (bottom-right); changed to Cyan for Sian
  * for fonts see here: https://github.com/Etcetera-Type-Co
  * colour schemes https://www.hostinger.com/tutorials/website-color-schemes#Top_30_Website_Color_Schemes
@@ -42,8 +42,8 @@ body{
 
 a{color: #192570; text-decoration:none;}
 a.current{color: #192570; font-family:'Anybody',serif;}
-a.current:hover{color: #0066B9;} /* need to change this and above */
-a:hover{color: #0066B9;}
+a.current:hover{color: #FF2D3C;} /* need to change this and above */
+a:hover{color: #FF2D3C;}
 a:active{color: #192570;}
 h1,h2,h3,h4{clear:left; color: #009FE3; margin:1.5em 0em 1em 0em; font-family:'Anybody',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 h1{font-size:2.67em;}
@@ -82,7 +82,7 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Anybody',serif;}
-.top-left {font-size:5.33em; color: #000f46; background: #FDF8F0; text-align: center; width: 1000px; position: absolute; padding: 32px 0 0 0; top: 0px;}
+.top-left {font-size:5.33em; color: #000f46; background: #FDF8F0; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 32px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #FF2D3C; line-height: 1.5em; width: auto; height: 100px; padding: 0px 22px 22px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000f46;}
 
 /* Conference Title Logo */
