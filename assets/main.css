@@ -3,7 +3,7 @@
 /* These are the colors and fonts used throughout the webpage.
  * I've listed them here so that a user may easily
  * do a search-and-replace for these to change the site theme.
- *   'Trispace', Font for the body text 
+ *   'Arial', Font for the body text 
  *   'Anybody', Font for the title text
  *   #FDF8F0; Background color of the site (light beige)
  *   #000f46; Foreground (text) color of the site; changed Traditional Heritage Blue for Sian
@@ -16,7 +16,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Anybody');
-@import url('https://fonts.googleapis.com/css?family=Trispace');
+@import url('https://fonts.googleapis.com/css?family=Arial');
 
 *{
     border:0;
@@ -33,7 +33,7 @@ body{
     background-attachment: fixed;
     color: #000f46; 
     text-align: left;
-    font-family:'Trispace',sans-serif;
+    font-family:'Arial',sans-serif;
     font-size: 1em;
     line-height: 1.5em;
     margin: 60px auto;
